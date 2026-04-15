@@ -88,18 +88,6 @@ cp .env.example .env
 npm run dev
 ```
 
-PowerShell alternative:
-
-```powershell
-Copy-Item .env.example .env
-```
-
-Client environment variables:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
 ## Available Scripts
 
 **Frontend**
