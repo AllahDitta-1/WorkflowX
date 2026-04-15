@@ -43,51 +43,6 @@ WorkflowX/
 |- README.md
 ```
 
-## Local Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/AllahDitta-1/WorkflowX.git
-cd WorkflowX
-```
-
-### 2. Setup the backend
-
-```bash
-cd workflowx-server
-npm install
-cp .env.example .env
-npm run dev
-```
-
-PowerShell alternative:
-
-```powershell
-Copy-Item .env.example .env
-```
-
-Server environment variables:
-
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/workflowx
-JWT_SECRET=replace_with_a_strong_secret
-JWT_EXPIRE=7d
-CLIENT_URL=http://localhost:5173
-```
-
-### 3. Setup the frontend
-
-Open a second terminal:
-
-```bash
-cd workflowx-client
-npm install
-cp .env.example .env
-npm run dev
-```
-
 ## Available Scripts
 
 **Frontend**
